@@ -1,6 +1,6 @@
 {
   "name": "habitants-thing-factory",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Manage classes of units easily",
   "main": "index.js",
   "scripts": {
