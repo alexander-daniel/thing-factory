@@ -1,0 +1,19 @@
+{
+  "name": "habitants-thing-factory",
+  "version": "0.0.0",
+  "description": "Manage classes of units easily",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test"
+  },
+  "author": "Alexander Vados <alex.vados@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "deep-equal": "^0.2.1",
+    "findit": "^2.0.0"
+  },
+  "devDependencies": {
+    "tap": "^0.4.13",
+    "tape": "^3.0.3"
+  }
+}

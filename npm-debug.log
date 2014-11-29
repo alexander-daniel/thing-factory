@@ -1,0 +1,25 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/alex/.nvm/v0.10.33/bin/node',
+1 verbose cli   '/Users/alex/.nvm/v0.10.33/bin/npm',
+1 verbose cli   'test' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose run-script [ 'pretest', 'test', 'posttest' ]
+5 info pretest habitants-thing-factory@0.0.0
+6 info test habitants-thing-factory@0.0.0
+7 verbose unsafe-perm in lifecycle true
+8 error Error: write EPIPE
+8 error     at errnoException (net.js:904:11)
+8 error     at Object.afterWrite (net.js:720:19)
+9 error If you need help, you may report this *entire* log,
+9 error including the npm and node versions, at:
+9 error     <http://github.com/npm/npm/issues>
+10 error System Darwin 14.0.0
+11 error command "/Users/alex/.nvm/v0.10.33/bin/node" "/Users/alex/.nvm/v0.10.33/bin/npm" "test"
+12 error cwd /Users/alex/things/thing-factory
+13 error node -v v0.10.33
+14 error npm -v 1.4.28
+15 error syscall write
+16 error code EPIPE
+17 error errno EPIPE
+18 verbose exit [ 1, true ]
