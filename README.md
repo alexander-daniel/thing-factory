@@ -24,15 +24,15 @@ console.log(inheritanceChain);
 npm install thing-factory
 ```
 
-# var thingFactory = new ThingFactory(classDir)
+## var thingFactory = new ThingFactory(classDir)
 `classDir` is the path to where you have stored your class definitions.
 
 Returns an `EventEmitter`
 
-# thingFactory.prepareThingClasses()
+## thingFactory.prepareThingClasses()
 must be called first. `ready` event will fire when all classfiles are loaded.
 
-# thingFactory.create(className, spec)
+## thingFactory.create(className, spec)
 `className` | the name of the class you wish to create
 
 `spec` | object to pass in any specifications for initialization of the instance of your class.
@@ -40,10 +40,10 @@ must be called first. `ready` event will fire when all classfiles are loaded.
 Returns an instance of the class. (`thingState`)
 
 
-# thingFactory.inheritance(thingState)
+## thingFactory.inheritance(thingState)
 Returns the inheritance chain of given `thingState`
 
-# thingFactory.hasAncestor(thingState, ancestor)
+## thingFactory.hasAncestor(thingState, ancestor)
 `thingState` | instance of a class
 
 `ancestor` | name of class to check if given `thingState` has ancestor of.
@@ -55,3 +55,6 @@ Returns `boolean`
 ```bash
 npm test
 ```
+
+# licence
+MIT
