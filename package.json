@@ -1,12 +1,12 @@
 {
-  "name": "habitants-thing-factory",
+  "name": "thing-factory",
   "version": "0.0.1",
   "description": "Manage classes of units easily",
   "main": "index.js",
   "scripts": {
     "test": "tap test"
   },
-  "author": "Alexander Vados <alex.vados@gmail.com>",
+  "author": "Ben Postlethwaite, Alexander Vados <alex.vados@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "chokidar": "^0.12.1",
@@ -16,5 +16,20 @@
   "devDependencies": {
     "tap": "^0.4.13",
     "tape": "^3.0.3"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexander-vados/thing-factory.git"
+  },
+  "keywords": [
+    "classes",
+    "inheritance"
+  ],
+  "bugs": {
+    "url": "https://github.com/alexander-vados/thing-factory/issues"
+  },
+  "homepage": "https://github.com/alexander-vados/thing-factory"
 }
